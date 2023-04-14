@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/my-personal-project/static/css/main.d4f26735.css",
+    "main.js": "/my-personal-project/static/js/main.208f1acc.js",
+    "static/media/computer.png": "/my-personal-project/static/media/computer.e84b53587701e1816b8e.png",
+    "static/media/Esther.png": "/my-personal-project/static/media/Esther.73b02fbd4628a322d459.png",
+    "static/media/Daniel.png": "/my-personal-project/static/media/Daniel.16ab9848e5e7412eb1b9.png",
+    "static/media/Paradise.png": "/my-personal-project/static/media/Paradise.03abe2a118da14cfc8d3.png",
+    "static/media/crocheting.png": "/my-personal-project/static/media/crocheting.38ebbc25277b55c7a462.png",
+    "static/media/learning.png": "/my-personal-project/static/media/learning.3468db0e60d4b1eab297.png",
+    "static/media/ComingSoon.png": "/my-personal-project/static/media/ComingSoon.fed1a02264a633aa9490.png",
+    "static/media/LinkedIn.png": "/my-personal-project/static/media/LinkedIn.0e0a6b401e20b02f771c.png",
+    "index.html": "/my-personal-project/index.html",
+    "main.d4f26735.css.map": "/my-personal-project/static/css/main.d4f26735.css.map",
+    "main.208f1acc.js.map": "/my-personal-project/static/js/main.208f1acc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d4f26735.css",
+    "static/js/main.208f1acc.js"
+  ]
+}
