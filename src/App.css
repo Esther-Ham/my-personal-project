@@ -1,38 +1,96 @@
-.App {
+/* App.css */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #93B5C6;
+}
+
+body {
+  background: linear-gradient(to bottom, #93B5C6, #e4b4c4);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 22px !important;
+}
+
+div.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: #dea1b5 !important;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 15px !important;
+  font-weight: bold;
+}
+
+.has-background-color {
+  background-color: #C9CCD5 !important;
+}
+
+h1 {
+  font-family: 'Montserrat Alternates', sans-serif;  
+  color: #dde9ed !important;
+}
+
+.navbar {
+  width: 90vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 18px !important;
+  background-color: #83afc5 !important;
+}
+
+.navbar-item {
+  margin-right: 10px;
+}
+
+.title {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html,
+body,
+#root {
+  height: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* New styles */
+.main-container {
+  height: 100vh;
   display: flex;
   flex-direction: column;
+}
+
+.content-container {
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  flex-grow: 1;
+  overflow: auto;
+}
+
+.flex-row {
+  display: flex;
+}
+
+.footer-link {
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(168, 85, 99);
+  text-decoration: none;
 }
 
-.App-link {
-  color: #61dafb;
-}
+/* Media queries for responsive design */
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media screen and (max-width: 768px) {
+  .navbar {
+    width: 100%;
   }
 }
