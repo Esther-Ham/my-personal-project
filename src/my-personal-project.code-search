@@ -1,0 +1,9 @@
+# Query: my-personal-project
+# ContextLines: 1
+
+1 result - 1 file
+
+package.json:
+  1  {
+  2:   "homepage": "http://Esther-Ham.github.io",
+  3    "name": "project1",

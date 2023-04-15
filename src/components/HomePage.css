@@ -196,15 +196,36 @@
   align-items: center;
 }
 
+/* Media Queries for Responsiveness */
 @media (max-width: 768px) {
-  .skills-item-inner {
-    flex-direction: column;
-  }
+.skills-item-inner {
+  flex-direction: column;
+}
 
-  .skills-item img {
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 20px;
-    width: 100%;
-  }
+.skills-item img {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 20px;
+  width: 100%;
+}
+
+/* Adjust layout for small screens */
+.tile.is-ancestor {
+  display: flex;
+  flex-direction: column;
+}
+
+.tile.is-vertical {
+  width: 100%;
+}
+
+.right-tiles {
+  margin-top: 2rem;
+  margin-right: 0;
+}
+
+.wide-tile {
+  margin-left: 30px;
+  margin-right: 30px;
+}
 }
