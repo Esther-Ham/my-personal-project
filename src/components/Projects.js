@@ -3,8 +3,7 @@ import './HomePage.css';
 import Paradise from '../images/Paradise.png';
 import ComingSoon from '../images/ComingSoon.png';
 
-function Projects() {
-  return (
+const Projects = () => 
     <div className='project-section'>
       <div className="wide-tile">
           <article className='tile is-child box wide-tile'>
@@ -13,12 +12,14 @@ function Projects() {
             </div>
               <p className='paragraph-subheading'>One is done, the other is a work in progress</p>
               <ul>
+                <a href='https://esther-ham.github.io/img-search/'>
                 <li><span className="twinkle-text">Image Searching</span></li>
                 <img 
                   src={Paradise} 
                   alt='screenshot' 
                   style={{ maxWidth: '275px', height: 'auto', marginTop: '15px', marginBottom: '40px' }} 
                 />
+                </a>
                 <li><span className="twinkle-text">Weather App</span></li>
                 <img 
                   src={ComingSoon} 
@@ -29,7 +30,5 @@ function Projects() {
           </article>
       </div>
     </div>
-  );
-}
 
 export default Projects;

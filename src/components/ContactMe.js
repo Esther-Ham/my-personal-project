@@ -1,8 +1,7 @@
 import React from 'react';
 import './HomePage.css';
 
-function Contact() {
-  return (
+const Contact = () =>
     <div className='contact-section'>
       <div className="wide-tile">
         <article className='tile is-child box wide-tile'>
@@ -22,7 +21,5 @@ function Contact() {
         </article>
       </div>
     </div>
-  );
-}
 
 export default Contact;

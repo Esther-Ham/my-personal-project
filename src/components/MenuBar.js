@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import 'bulma/css/bulma.css';
 import './MenuBar.css';
 
-function MenuBar() {
+const MenuBar = () => {
   const [isActive, setIsActive] = useState(false);
 
   return (

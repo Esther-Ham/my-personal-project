@@ -10,13 +10,13 @@ import Contact from './components/ContactMe';
 import Projects from './components/Projects';
 import LinkedIn from './images/LinkedIn.png';
 
-function Header() {
+const Header = () => {
   return (
     <div style={{ height: '70px' }} />
   );
 }
 
-function Footer() {
+const Footer = () => {
   return (
     <div className='footer has-background-color'>
       <a href="https://www.linkedin.com/in/estherham/" target="_blank" rel="noopener noreferrer" className="footer-link">
@@ -31,8 +31,7 @@ function Footer() {
   );
 }
 
-function App() {
-  return (
+const App = () => 
     <Router>
       <div className="main-container">
         <Header />
@@ -50,7 +49,5 @@ function App() {
         <Footer />
       </div>
     </Router>
-  );
-}
 
 export default App;
