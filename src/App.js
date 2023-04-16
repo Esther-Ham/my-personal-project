@@ -10,6 +10,9 @@ import Contact from './components/ContactMe';
 import Projects from './components/Projects';
 import LinkedIn from './images/LinkedIn.png';
 
+const visitLinkedInPage = "Visit my LinkedIn Page!"
+const myName = "Esther Ham"
+
 const Header = () => {
   return (
     <div style={{ height: '70px' }} />
@@ -25,7 +28,7 @@ const Footer = () => {
           alt='LinkedIn Logo in Pink' 
           style={{ maxWidth: '30px', height: 'auto', marginRight: '20px' }} 
         />
-        <p>Visit my LinkedIn Page!</p>
+        <p>{visitLinkedInPage}</p>
       </a>
     </div>
   );
@@ -36,7 +39,7 @@ const App = () =>
       <div className="main-container">
         <Header />
         <div className="content-container">
-            <h1 className="title is-1">Esther Ham</h1>
+            <h1 className="title is-1">{myName}</h1>
           <MenuBar />
           <Routes>
             <Route path="/" element={<Home />} />

@@ -11,9 +11,9 @@ const MenuBar = () => {
       <div className='container is-max-desktop'>
         <div className='navbar-brand'>
           <div className={`navbar-burger burger ${isActive ? 'is-active' : ''}`} onClick={() => setIsActive(!isActive)} data-target='navbar-menu'>
-            <span></span>
-            <span></span>
-            <span></span>
+            <span />
+            <span />
+            <span />
           </div>
         </div>
         <div className={`navbar-menu ${isActive ? 'is-active' : ''}`}>
